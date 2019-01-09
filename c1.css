@@ -1,0 +1,14 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#para {
+   word-wrap: break-word;
+   width: 500px;
+}
