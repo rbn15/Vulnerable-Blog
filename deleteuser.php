@@ -22,10 +22,11 @@ if (isset($_SESSION["usr"])){
 
 	$q5="delete from likes where uid=".$uid.";";
 	
-	echo $q."<br>".$q3."<br>".$q4;
+	//echo $q."<br>".$q3."<br>".$q4;
+	$res5=mysqli_query($conn,$q5);
 	$res4=mysqli_query($conn,$q4);
 	$res3=mysqli_query($conn,$q3);
-	$res5=mysli_query($conn,$q5);
+
 	$res=mysqli_query($conn, $q);
 
 	session_destroy();
