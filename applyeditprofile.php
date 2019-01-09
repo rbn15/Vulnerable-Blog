@@ -24,7 +24,7 @@ if (!$conn) {
 $password=md5($password);
 $q="update info set usr='".$usr."',firstname='".$firstname."',lastname='".$lastname."',email='".$email."' where uid=".$uid.";";
 
-$q2="update credentials set hash='".md5($password)."' where uid=".$uid.";";
+$q2="update credentials set hash='".$password."' where uid=".$uid.";";
 echo $q."<br>".$q2;
 mysqli_query($conn,$q);
 mysqli_query($conn,$q2);
