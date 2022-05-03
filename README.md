@@ -3,8 +3,6 @@ Vulnerable-Blog is a website made for users to post their blog articles.
 It was made using PHP and MySQL. 
 The website was developed and tested on a personal computer using XAMPP.
 For the website to be configured on a different computer/server the MySQL database needs to configured as described in the following document and the files needs to be added to htdocs folder.
-<br><a href="https://github.com/rbn15/Blog/blob/master/design_document.docx?raw=true">Design Document</a>
-
 
 <h2>Walkthrough</h2>
 1.  This how the site looks in the beginning 
